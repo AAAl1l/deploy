@@ -5,7 +5,7 @@
     "kibana", "time-series", "metrics", "analytics", "dataviz", "visualization",
   ],
   "website": "http://grafana.org/",
-  "repository": "https://github.com/AAAl1l/AZA",
+  "repository": "https://github.com/AAAl1l/deploy",
   "logo": "http://cdn.scalingo.com/documentation/technologies/grafana-logo.png",
   "success_url": "/",
   "env": {
