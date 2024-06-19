@@ -1,0 +1,49 @@
+{
+  "name": "AAAl1l",
+  "description": "• تنصيب سـورس زدثــون مجاناً علـى منصـة سكـالينجـو • افضـل سـورسـات يـوزربـوت العربيـة",
+  "keywords": [
+    "kibana", "time-series", "metrics", "analytics", "dataviz", "visualization",
+  ],
+  "website": "http://grafana.org/",
+  "repository": "https://github.com/AAAl1l/AZA",
+  "logo": "http://cdn.scalingo.com/documentation/technologies/grafana-logo.png",
+  "success_url": "/",
+  "env": {
+    "STRING_SESSION": {
+      "description": "كـــود جلســة تيــرمكــس - الكـود الكبيـر مـن حـافظـة حسـابـك او مـن بــوت〔 T66bot@ 〕..",
+      "value": "",
+      "required": true
+    },
+    "TG_BOT_TOKEN": {
+      "description": "تـــوكـــن البـــوت المســاعـد الخــاص بـك - مـن بـوت فـاذر〔 Botfather@ 〕..",
+      "value": "",
+      "required": true
+    },
+    "APP_ID": {
+      "description": "كـود ايبي ايـدي〔 App id 〕اتركـه كمـا هــو",
+      "value": "27455984",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "كـود ايبي هـاش〔 Api Hash 〕اتركـه كمـا هــو",
+      "value": "62d5f68ce2e9189636967120220f5755",
+      "required": true
+    },
+    "TZ": {
+      "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
+      "value": "Asia/Baghdad",
+      "required": true
+    },
+    "ENV": {
+      "description": "لا تغيــرهـــا",
+      "value": "ANYTHING",
+      "required": true
+    },
+    "BUILDPACK_URL": {
+      "description": "Buildpack to use to deploy AzA",
+      "value": "https://github.com/Scalingo/multi-buildpack.git",
+      "required": true
+    }
+  },
+  "addons": ["scalingo-postgresql"]
+}
