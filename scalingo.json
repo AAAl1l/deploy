@@ -7,6 +7,7 @@
   "website": "http://grafana.org/",
   "repository": "https://github.com/AAAl1l/deploy",
   "logo": "http://cdn.scalingo.com/documentation/technologies/grafana-logo.png",
+  "stack": "container",
   "success_url": "/",
   "env": {
     "STRING_SESSION": {
