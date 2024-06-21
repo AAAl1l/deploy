@@ -1,5 +1,5 @@
-git clone https://github.com/AAAl1l/AZA FSC
-cd FSC
+git clone https://github.com/Tzelzal/AZA TLZL
+cd TLZL
 pip3 install --upgrade pip
 pip3 install -U -r requirements.txt
 python3 -m zelz
